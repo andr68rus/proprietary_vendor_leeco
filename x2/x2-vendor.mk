@@ -805,10 +805,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/leeco/x2/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
     vendor/leeco/x2/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/leeco/x2/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
     vendor/leeco/x2/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
     vendor/leeco/x2/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
@@ -957,10 +955,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/leeco/x2/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/leeco/x2/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
@@ -1065,17 +1061,15 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
-    ims \
     qcrilmsgtunnel \
     QtiTetherService \
-    xtra_t_app \
     colorservice \
-    imssettings \
     qcnvitems \
     qcrilhook \
     LetvRemoteControl_preinstall \
     LetvCamera \
-    UEIQuicksetSDKLeTV
+    UEIQuicksetSDKLeTV \
+    xtra_t_app
 endif
 
 -include vendor/extra/devices.mk
