@@ -723,11 +723,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/leeco/x2/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/leeco/x2/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
-    vendor/leeco/x2/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/leeco/x2/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/leeco/x2/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/leeco/x2/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/leeco/x2/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/leeco/x2/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/leeco/x2/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/leeco/x2/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
@@ -1069,7 +1067,11 @@ PRODUCT_PACKAGES += \
     LetvRemoteControl_preinstall \
     LetvCamera \
     UEIQuicksetSDKLeTV \
-    xtra_t_app
+    ims \
+    imssettings \
+    imscmlibrary \
+    cneapiclient \
+    com.quicinc.cne
 endif
 
 -include vendor/extra/devices.mk
